@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="validation.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="reg-form">
+        <div class="container">
+            <form id="form">
+                <h1><b>Coderz Form</b></h1>
+                <div class="inputgroup">
+                    <label for="username">Enter your Name</label>
+                    <input type="text" id="username" name="username">
+                    <div class="error"></div>
+                </div>
+                <div class="inputgroup">
+                    <label for="email">Enter your Email</label>
+                    <input type="text" id="email" name="email" placeholder="abc@gmail.com">
+                    <div class="error"></div>
+                </div>
+                <div class="inputgroup">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                    <div class="error"></div>
+                </div>
+                <div class="inputgroup">
+                    <label for="cpassword">Confirm Password</label>
+                    <input type="password" id="cpassword" name="cpassword">
+                    <div class="error"></div>
+                </div>
+                <div class="inputgroup">
+                    <label for="phn">Enter your phone number</label>
+                    <input type="text" id="phn" name="phn" maxlength="10s">
+                    <div class="error"></div>
+                </div>
+                <div class="inputgroup" style="display: inline;">
+                    <label for="gender p-2" for="f-m">Your Gender :</label>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                    <div class="error"></div>
+                </div>
+                <div class="inputgroup" style="display: inline;">
+                    <label class="mt-3" for="sub">Favorite Staff :</label>
+                    <input type="checkbox" id="aru" name="fav-staff">
+                    <label for="aru">Arumugam</label>
+                    <input type="checkbox" id="pvn" name="fav-staff">
+                    <label for="pvn">Praveen</label>
+                    <input type="checkbox" id="vj" name="fav-staff">
+                    <label for="vj">Vijay</label>
+                    <input type="checkbox" id="arun" name="fav-staff">
+                    <label for="arun">Arun</label>
+                    <div class="error"></div>
+                </div>
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="validation.js"></script>
+
+</html>

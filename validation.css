@@ -1,0 +1,50 @@
+.reg-form{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+form {
+    width: 600px;
+    margin: 50px 300px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #792099;
+}
+label{
+    color: black;
+    font-size: 20px;
+}
+
+form button {
+    background-color: #792099;
+    color: white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 150px;
+    margin-left: 70px;
+    
+}
+
+.inputgroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.inputgroup input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.error{
+    color: red;
+}
